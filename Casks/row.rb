@@ -3,7 +3,7 @@ cask "row" do
   name "row"
   desc "Filter stdin lines by range"
   homepage "https://github.com/suominentoni/row"
-  version "0.2.0"
+  version "1.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "row" do
   on_macos do
     on_intel do
       url "https://github.com/suominentoni/row/releases/download/v#{version}/row_#{version}_darwin_amd64.tar.gz"
-      sha256 "6f743ab357e7b5883de54e5aff3f33afdabde95814d0d1ff86012d503552b7cc"
+      sha256 "4aac144bd4e1ceb7e27215ded9fa6687bc737b1ad230949970b62e16e5df24e0"
     end
     on_arm do
       url "https://github.com/suominentoni/row/releases/download/v#{version}/row_#{version}_darwin_arm64.tar.gz"
-      sha256 "f681682568cf4a6a0e4b2ba71f965cbfc80ca29061dab4f2b2e3ff4afd338dcf"
+      sha256 "3cb6606a5ad99278f21d1a295da56b1d2dbc67e7ded911f68e66a9425a46ea90"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/suominentoni/row/releases/download/v#{version}/row_#{version}_linux_amd64.tar.gz"
-      sha256 "d28634b2ce4dd586930036717561760c7820a2478b12a71036f0fe6dbb503454"
+      sha256 "06991bd21e51a793193f0184d42f8498ec5421d82c211897885f03dbf604ac9e"
     end
     on_arm do
       url "https://github.com/suominentoni/row/releases/download/v#{version}/row_#{version}_linux_arm64.tar.gz"
-      sha256 "7395414ef0abae050ac06047cbb539da086045ab8d7e22eb00f9b5559e3944b6"
+      sha256 "a84d476ed6cebf1cda61b3d14ad24f1ce9edbb9e42a97617bd53deb0cd2a6be9"
     end
   end
 
